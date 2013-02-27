@@ -45,6 +45,7 @@
 	
 	<script type="text/javascript" src="${contextPath}${resourcePath}/js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="${contextPath}${resourcePath}/js/jquery-ui-1.8.24.custom.min.js"></script>
+	<script type="text/javascript" src="${contextPath}${resourcePath}/js/jquery.ui.touch-punch.min.js"></script>
 	<script type="text/javascript" src="${contextPath}${resourcePath}/js/bootstrap-2.2.1.min.js"></script>
 	
 	<script type="text/javascript" src="${contextPath}${resourcePath}/js/mvk-ui.js"></script>
