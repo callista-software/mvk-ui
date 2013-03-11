@@ -35,10 +35,8 @@
 <div id="headerContainer">
 	<div id="header">
 		<div class="wrapper">
-			<a href="<c:out value="${GLOB_CTX_PATH}" />/home">
-				<h1 class="assistiveText">${title}</h1>
-			</a>
-			<!-- 
+			<h1 class="assistiveText">${title}</h1>
+			<!--
 			<div class="functionRow notOnNarrow"><a href="/mvk/settings.xhtml">Inställningar</a>
 				<span class="divider">|</span>
 				<a href="http://minavardkontakter.se/inloggningssatt">Hjälp</a>
