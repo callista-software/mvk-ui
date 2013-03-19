@@ -33,7 +33,7 @@ var MVK = {
 		var my = {};
 		
 		my.initMenuState = function() {
-			if ($(window).width() < 980) {
+			if ($(window).width() < 801) {
 				my.hideMenu();
 			} else {
 				my.showMenu();
@@ -56,7 +56,7 @@ var MVK = {
 		
 		my.initResizer = function() {
 			$(window).resize(function() {
-				if ($(window).width() < 980) {
+				if ($(window).width() < 801) {
 					my.hideMenu();
 				} else {
 					my.showMenu();
