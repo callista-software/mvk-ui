@@ -23,6 +23,7 @@
 <%@ attribute name="backToWhat" required="false" %>
 <%@ attribute name="plain" required="false" %>
 <%@ attribute name="noMenu" required="false" %>
+<%@ attribute name="printable" required="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <c:if test="${not empty noMenu}">
@@ -53,6 +54,18 @@
 						${backTitle} <span>${backToWhat}</span>
 					</a>
 				</c:if>
+
+                <c:if test="${not empty printable and printable == 'true'}">
+                    <ul id="toolbar" class="toolbar caseDetailToolbar notOnNarrow" style="padding-bottom: 3px;">
+                        <li class="toolbarItem">
+                            <a href="#" onclick="window.print(); return false;">
+                                <span class="icon toolbar_print">
+                                    <span>Skriv ut</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </c:if>
 			</div>
 			
 			<div class="containerBoxShadow paperSheet">

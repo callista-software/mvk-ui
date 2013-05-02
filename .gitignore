@@ -5,6 +5,7 @@
 *.war
 *.ear
 
+.idea
 target
 .project
 .classpath
