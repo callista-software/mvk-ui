@@ -20,6 +20,7 @@
 <%@ attribute name="title" required="true" %>
 <%@ attribute name="loggedInUser" required="true" %>
 <%@ attribute name="loggedInAsText" required="false" %>
+<%@ attribute name="mvkUrl" required="true" %>
 <%@ attribute name="logoutUrl" required="true" %>
 <%@ attribute name="logoutText" required="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -35,7 +36,7 @@
 <div id="headerContainer">
 	<div id="header">
 		<div class="wrapper">
-      <a href="/mvk/start.xhtml" target="_top" class="backButton">
+      <a href="${mvkUrl}" target="_top" class="backButton">
         Tillbaka <span class="smallLogo">till</span></a>
 			<div class="clear"></div>
 			<div class="userRow">
