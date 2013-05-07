@@ -652,6 +652,24 @@ button:active,.button:active, input[type="submit"]:active {
 	background-repeat: repeat-x;
 }
 
+#headerContainer .backButton {
+    margin-top: 8px;
+}
+
+#headerContainer .backButton .smallLogo {
+    background-image: url('../images/header/headerLogo_small.png');
+    background-repeat: no-repeat;
+    background-position: 20px 1px;
+    height: 20px;
+    width: 170px;
+    padding-top: 8px;
+    float:left;
+}
+
+#headerContainer .backButton .smallLogo .to {
+    float: left;
+}
+
 #header {
 	position: relative;
 	font-size: 0.8125em;
@@ -948,19 +966,14 @@ a.backButton {
 	font-size: 1.3em;
 	margin-top: 10px;
 	padding-left: 48px;
-	background-image: url('../images/navigateBack.png');
+    line-height: 13px;
+    background-image: url('../images/navigateBack.png');
 	background-repeat: no-repeat;
-	background-position: left center;
+    background-position: 0px -8px;
 }
 
 a.backButton span {
 	display: block;
-	font-size: 0.625em;
-	color: black;
-}
-
-a.backButton:hover span {
-	text-decoration: underline;
 }
 
 .errorBox,.obsBox {

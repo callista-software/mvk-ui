@@ -35,15 +35,9 @@
 <div id="headerContainer">
 	<div id="header">
 		<div class="wrapper">
-			<h1 class="assistiveText">${title}</h1>
-			<!--
-			<div class="functionRow notOnNarrow"><a href="/mvk/settings.xhtml">Inställningar</a>
-				<span class="divider">|</span>
-				<a href="http://minavardkontakter.se/inloggningssatt">Hjälp</a>
-			</div>
-			 -->
+      <a href="/mvk/start.xhtml" target="_top" class="backButton">
+        Tillbaka <span class="smallLogo">till</span></a>
 			<div class="clear"></div>
-			
 			<div class="userRow">
 				<span class="activeUser">
 					<span class="notOnNarrowInline extraText">${loggedInAsText}</span> <span class="bold uname">${loggedInUser}</span></span>
