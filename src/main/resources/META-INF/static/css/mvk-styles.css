@@ -783,6 +783,43 @@ a:hover .smallLogoMvk {
 	height: 112px;
 }
 
+/*** Header Take 2 ***/
+.backbuttonMvk {
+    float: left;
+    display: block;
+    text-decoration: none;
+    margin-top: 6px;
+    padding-left: 48px;
+    line-height: 16px;
+    background-image: url('../images/navigateBack.png');
+    background-repeat: no-repeat;
+    background-position: 0px -4px;
+}
+
+.smallLogoMvk {
+    background-image: url('../images/header/headerLogo_small.png');
+    background-repeat: no-repeat;
+    background-position: 22px 0px;
+    height: 20px;
+    width: 170px;
+    padding-top: 6px;
+    float:left;
+    font-size: 18px;
+}
+
+.tillbaka {
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+a:hover .smallLogoMvk {
+    text-decoration:underline;
+}
+
+
+
+
 /*********************/
 #mainContainer {
 	margin: 0 auto;
@@ -976,7 +1013,7 @@ a.backButton {
     text-decoration: none;
     margin-top: 6px;
     padding-left: 48px;
-    line-height: 16px;
+    line-height: 18px;
     background-image: url('../images/navigateBack.png');
     background-repeat: no-repeat;
     background-position: 0px -4px;
