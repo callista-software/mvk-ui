@@ -36,8 +36,9 @@
 <div id="headerContainer">
 	<div id="header">
 		<div class="wrapper">
-      <a href="${mvkUrl}" target="_top" class="backButton">
-        Tillbaka <span class="smallLogo">till</span></a>
+      <a href="${mvkUrl}" target="_top" class="backbuttonMvk">
+        <span class="tillbaka">Tillbaka</span>
+        <span class="smallLogoMvk">till</span></a>
 			<div class="clear"></div>
 			<div class="userRow">
 				<span class="activeUser">
